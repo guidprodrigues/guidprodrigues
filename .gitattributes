@@ -1,0 +1,33 @@
+# Forçar Linguist a contar arquivos de DevOps / IaC / Containers
+
+# Contar arquivos YAML e YML
+*.yml linguist-detectable=true
+*.yaml linguist-detectable=true
+
+# Contar Dockerfiles
+Dockerfile linguist-detectable=true
+
+# Contar arquivos Terraform
+*.tf linguist-detectable=true
+*.tfvars linguist-detectable=true
+*.tf.json linguist-detectable=true
+
+# Contar arquivos Ansible
+*playbook.yml linguist-detectable=true
+*.ansible.yml linguist-detectable=true
+
+# Contar arquivos Helm Charts
+Chart.yaml linguist-detectable=true
+values.yaml linguist-detectable=true
+
+# Contar arquivos Markdown (como .md)
+*.md linguist-detectable=true
+
+# Contar arquivos de Kubernetes (YAML com apiVersion)
+k8s/*.yaml linguist-detectable=true
+
+# Evitar que pastas de terceiros ou geradas entrem na contagem
+vendor/** linguist-vendored=true
+node_modules/** linguist-vendored=true
+dist/** linguist-vendored=true
+build/** linguist-vendored=true
