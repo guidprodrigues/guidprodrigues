@@ -25,9 +25,3 @@ values.yaml linguist-detectable=true
 
 # Contar arquivos de Kubernetes (YAML com apiVersion)
 k8s/*.yaml linguist-detectable=true
-
-# Evitar que pastas de terceiros ou geradas entrem na contagem
-vendor/** linguist-vendored=true
-node_modules/** linguist-vendored=true
-dist/** linguist-vendored=true
-build/** linguist-vendored=true
