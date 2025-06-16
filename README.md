@@ -25,12 +25,24 @@
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch;" >
 <!-- Criado utilizando a pagina github https://github.com/anuraghazra/github-readme-stats -->
-      <a href="href="https://github.com/guidprodrigues/github-readme-stats" style="flex: 1 1 300px; max-width: 50%; padding: 5px; box-sizing: border-box;">
+      <a href="href="https://github.com/guidprodrigues/github-readme-stats" style="flex: 1 1 50%; max-width: 50%; padding: 5px; box-sizing: border-box;">
             <img height="180em" align = "left" src="https://github-readme-stats.vercel.app/api?username=guidprodrigues&show_icons=true&theme=radical&rank_icon=github&custom_title=Status%20Github&card_width=50%" alt="GitHub Stats"/>
       </a>
-      <a href="https://github.com/guidprodrigues/convoychat" style="flex: 1 1 300px; max-width: 50%; padding: 5px; box-sizing: border-box;">
+      <a href="https://github.com/guidprodrigues/convoychat" style="flex: 1 1 50%; max-width: 50%; padding: 5px; box-sizing: border-box;">
             <img height="180em" align = "right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guidprodrigues&layout=pie&custom_title=Linguagens%20Utilizadas&card_width=50%" alt="Linguagem Stats"/>
       </a>   
 </div>     
 
 ---
+
+<!--
+### :zap: Atividades Recentes
+ Criar um painel de utimas atividades com o repositorio https://github.com/marketplace/actions/github-activity-readme -->
+<!--START_SECTION:activity-->
+<!--
+1. 🗣 Commented on [#5129](https://github.com/hoppscotch/hoppscotch/issues/5129#issuecomment-2973557147) in [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+2. 🗣 Commented on [#5123](https://github.com/hoppscotch/hoppscotch/issues/5123#issuecomment-2973556508) in [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+3. 🔒 Closed issue [#5123](https://github.com/hoppscotch/hoppscotch/issues/5123) in [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+4. 🚀 Published release [2025.5.2](https://github.com/hoppscotch/hoppscotch/releases/tag/2025.5.2) in [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+5. 🔒 Closed issue [#5129](https://github.com/hoppscotch/hoppscotch/issues/5129) in [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+<!--END_SECTION:activity-->
