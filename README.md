@@ -107,9 +107,9 @@
 <details>
 <summary>Click here to read in English</summary>
 
+# W.I.P - Work In Progress
 
 ---
-
 </details>
 
 ---
