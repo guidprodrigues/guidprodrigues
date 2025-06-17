@@ -6,6 +6,9 @@
 
 **`💡Intusiasta de tecnologia 💡`** **`🎮 Gamer 🎮`** **`💼 Analista de Infraestrutura 💼`**
 
+<!-- Links feitos utilizando o site https://shields.io/badges e utilizando logos e cores do https://simpleicons.org/?q=telegram -->
+
+
 [![Linkedin Badge](https://img.shields.io/badge/linkedin-0077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/guidprodrigues/)
 [![Instagram Badge](https://img.shields.io/badge/instagram-E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/guidprodrigues)
 [![Outlook Badge](https://img.shields.io/badge/e‑mail-%23236CFF.svg?style=for-the-badge&logo=Mail&logoColor=white)](mailto:guidprodrigues@outlook.com)
