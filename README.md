@@ -1,4 +1,4 @@
-# ![Bandeira US](./imagens/bandeira-br.png) Escolhe qual linguagem deseja ver
+# ![Bandeira US](./imagens/bandeira-br.png) Escolha qual linguagem deseja ver
 <details>
 <summary>Clique aqui para ver em Português</summary>
 
