@@ -1,4 +1,4 @@
-<!--- Links para versões em outros idiomas testeeeeeeeee-->
+<!--- Links para versões em outros idiomas -->
 <p align="center">
 <a href="./docs/readme_en-US.md">English Version Here</a>
 </p>
