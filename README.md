@@ -48,11 +48,18 @@
   <summary><h1>🌟 Conheça um pouco sobre mim 🌟</h1></summary>
 
 <!--- Descrição breve sobre mim -->
-- 🔭 Hoje trabalho com infraestrutura na Zinho, Industria do ramo alimenticio
-- 🌱 Estou estudando gestão de servidores windows e linux para  aprimorar meus conhecimentos como Sysadmin / DevOps, boas praticas, hardening, segurança e proteção.
-      Tambem estou aprimorando meus conhecimentos com containerização
+- 🎓 Sou formado em Analise e desenvolvimento de sistemas, decidi entrar para a area de Infraestrutura pois acredito que essa área é a base para um bom profissional de Tecnologia.
+- Trabalho a mais de 3 anos como Analista de infraestrutura na Zinho, uma industria alimenticia que produz pães recheados, muito conhecida pelo Pão de Alho 🥖
 
-- ⚡ Fatos curiosos: Minha paixão pelo mundo digital vem de muito tempo, mas minha maior inspiração ainda quando criança era um youtuber de minecraft que utilizava a liberdade do jogo e os mods da comunidade para criar invenções e sistemas incriveis, incluindo programação dentro do jogo, esse foi a faisca que me trouxe para esse mundo de Infra/Sistemas
+- 💼 Hoje faço toda a gestão da infraestrutura da empresa, desde servidores e cabeamento estruturado, passando por sistemas de controle de acesso e CFTV, até notebooks e celulares, além de gerenciar contratos, orçamentos e parceiros tercerizados.
+
+- Além da experiencia na empresa que atuo, como todo bom amante da tecnologia faço meus experimentos 🧪 no meu HomeLab, possuo um ambiente de produção onde hospedo aplicações para mim e meus familiares, e tambem um ambiente para testes de novas tecnologias do mercado ou coisas que chamaram minha atenção.
+
+- 🚩 Atualmente estou focando meus esforços para evoluir no segmento de DevOps,estudando e me aprimorando em containers, CI/CD, Automações e  Observabilidade.
+
+- 🎯 Meus objetivos e metas, são de me desenvolver pessoalmente e profissionalmente, me tornando alguem de referencia no mercado para isso estudo diariamente para aprimorar tanto minhas HardSkills quanto minhas SoftSkills.
+
+- 👀 Fatos curiosos: Minha paixão pelo mundo digital vem de muito tempo, mas minha maior inspiração ainda quando criança era um youtuber de minecraft que utilizava a liberdade do jogo sandbox e os mods da comunidade para criar invenções e sistemas incriveis, incluindo programação dentro do jogo, esse foi a faisca que me trouxe para esse mundo da Tecnologia 🤖
 
 </details>
 
