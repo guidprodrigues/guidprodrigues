@@ -1,3 +1,4 @@
+#
 <!--- Links para versões em outros idiomas -->
 <p align="center">
 <a href="./docs/readme_en-US.md">English Version Here</a>
@@ -17,9 +18,6 @@
   https://fontawesome.com/
   https://cdn.icon-icons.com/
   https://icons8.com.br/icons/set/cdn
-
-
-
 --->
 
 <p align="center">
@@ -40,11 +38,12 @@
 
 <!--- Tags de Interesses & Estudos -->
 
-**`💡Entusiasta da tecnologia 💡`** **`🧪 Home Lab 🧪`** **`🤖 Automações 🤖`** **`🎮 Gamer 🎮`** 
+**`💡Entusiasta da tecnologia 💡`** **`🧪 Home Lab 🧪`** **`🤖 Automações 🤖`** **`🎮 Gamer 🎮`**
 
-**`💼 Analista de Infraestrutura 💼`** **` ☁️ Cloud Computing ☁️`** **` 👨‍💻 DevOps 👨‍💻 `**
+**`💼 Analista de Infraestrutura 💼`** **`☁️ Cloud Computing ☁️`** **` 👨‍💻 DevOps 👨‍💻 `**
 
 ---
+
 <details open>
   <summary><h2>😁 Sobre:</h2></summary>
 
@@ -54,6 +53,7 @@
       Tambem estou aprimorando meus conhecimentos com containerização
 
 - ⚡ Fatos curiosos: Minha paixão pelo mundo digital vem de muito tempo, mas minha maior inspiração ainda quando criança era um youtuber de minecraft que utilizava a liberdade do jogo e os mods da comunidade para criar invenções e sistemas incriveis, incluindo programação dentro do jogo, esse foi a faisca que me trouxe para esse mundo de Infra/Sistemas
+
 </details>
 
 <details open> 
