@@ -48,7 +48,7 @@
   <summary><h2>😁 Sobre:</h2></summary>
 
 <!--- Descrição breve sobre mim -->
-- 🔭 Hoje trabalho com infraestrutura na Zinho, Industria do ramo alimenticio 
+- 🔭 Hoje trabalho com infraestrutura na Zinho, Industria do ramo alimenticio
 - 🌱 Estou estudando gestão de servidores windows e linux para  aprimorar meus conhecimentos como Sysadmin / DevOps, boas praticas, hardening, segurança e proteção.
       Tambem estou aprimorando meus conhecimentos com containerização
 
@@ -56,7 +56,7 @@
 
 </details>
 
-<details open> 
+<details open>
   <summary><h2>🛠️ Ferramentas | Linguagens | Tecnologias 🛠️</h2></summary>
   <!-- Badges feitos utilizando o site https://shields.io/badges e utilizando logos e cores do https://simpleicons.org/?q=telegram -->
   <!-- Alguns exemplos prontos podem ser achados em https://github.com/Ileriayo/markdown-badges -->
@@ -148,7 +148,7 @@
   </p>
 </details>
 
-<details> 
+<details>
   <summary><h2>📊 Estatísticas do GitHub 📊</h2></summary>
     <h3>🔥 Contribuição em sequencia</h3>
   <!-- Feito usando o repo opensource - https://github.com/DenverCoder1/github-readme-streak-stats -->
@@ -171,7 +171,7 @@
   <!-- Veja o repositorio https://github.com/jamesgeorge007/github-activity-readme para mais informações -->
 </details>
 
-<details> 
+<details>
   <summary><h2>📜 Certificados 📜</h2></summary>
   <!--- Certificados e Diplomas -->
   <a href="Link" title="Titulo"><img src="./certificados/microsoft-certifified-badge.jpg" alt="Certificado" width="10%" height="" /></a>
