@@ -4,10 +4,11 @@ name: Gerar PDF do Currículo
 
 on:
   push:
-    branches:
-      - main # Executa a action quando houver um push na branch 'main'
     paths:
       - 'curriculo.md' # Executa a action apenas se o curriculo.md for alterado
+      - '.github/workflows/gerar-pdf.yml
+  schedule:
+    - cron: '0 0 * * 0'
 
 jobs:
   build-pdf:
