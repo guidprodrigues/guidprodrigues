@@ -19,7 +19,7 @@ linkedin: "guidprodrigues"
 
 ## 💼 Perfil Profissional 🌱🚀💻
 
-Profissional de TI, formado em Análise e Desenvolvimento de Sistemas, com mais de 3️⃣ anos de experiência em infraestrutura corporativa na Zinho, uma das principais indústrias alimentícias da região, reconhecida nacionalmente pelo seu famoso Pão de Alho 🥖.
+Profissional de TI, formado em Análise e Desenvolvimento de Sistemas, com mais de 3️⃣ anos de experiência em infraestrutura corporativa na Zinho, uma das principais indústrias alimentícias da região, reconhecida nacionalmente pelo seu famoso Pão de Alho. 🥖
 
 Com perfil altamente hands-on, destaco-me pela capacidade de adaptação, resolução de problemas e aprendizado contínuo. Minha paixão por tecnologia começou desde muito novo e hoje se reflete tanto no ambiente corporativo quanto nos projetos pessoais que desenvolvo em meu HomeLab. 💡🔧📈
 
