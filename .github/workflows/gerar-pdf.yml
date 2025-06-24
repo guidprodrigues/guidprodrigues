@@ -1,12 +1,10 @@
-# .github/workflows/gerar-pdf.yml
-
 name: Gerar PDF do Currículo
 
 on:
   push:
     paths:
       - 'curriculo.md' # Executa a action apenas se o curriculo.md for alterado
-      - '.github/workflows/gerar-pdf.yml
+      - '.github/workflows/gerar-pdf.yml'
   schedule:
     - cron: '0 0 * * 0'
 
