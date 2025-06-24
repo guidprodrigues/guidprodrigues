@@ -5,7 +5,7 @@ on:
       - 'curriculo.md'
       - '.github/**'
   schedule:
-    - cron: '0 0 * * 0'  # semanalmente, por exemplo
+    - cron: '0 0 * * 0'  # semanalmente , por exemplo
 jobs:
   build:
     runs-on: ubuntu-latest
