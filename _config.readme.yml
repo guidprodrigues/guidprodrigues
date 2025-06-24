@@ -1,5 +1,5 @@
 # _config.readme.yml (na raiz)
 include:
-  - "docs/README.tpl.md"
-  - "docs/curriculo.md"
+  - "./docs/README.tpl.md"
+  - "./docs/curriculo.md"
 markdown_ext: "md,markdown"
