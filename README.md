@@ -49,7 +49,7 @@
 
 <!--- Descrição breve sobre mim -->
 - 🎓 Sou formado em Analise e desenvolvimento de sistemas, decidi entrar para a area de Infraestrutura pois acredito que essa área é a base para um bom profissional de Tecnologia.
-- Trabalho a mais de 3 anos como Analista de infraestrutura na Zinho, uma industria alimenticia que produz pães recheados, muito conhecida pelo Pão de Alho 🥖
+- Trabalho a mais de 3 anos como Analista de infraestrutura na [Zinho](https://zinho.com), uma industria alimenticia que produz pães recheados, muito conhecida pelo Pão de Alho 🥖
 
 - 💼 Hoje faço toda a gestão da infraestrutura da empresa, desde servidores e cabeamento estruturado, passando por sistemas de controle de acesso e CFTV, até notebooks e celulares, além de gerenciar contratos, orçamentos e parceiros tercerizados.
 
