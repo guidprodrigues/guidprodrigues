@@ -1,17 +1,32 @@
-name: Update README
+name: Atualiza README
 on:
+  push:
+    paths:
+      - 'curriculo.md'
+      - '.github/**'
   schedule:
-    - cron: "*/30 * * * *"
-  workflow_dispatch:
+    - cron: '0 0 * * 0'  # semanalmente, por exemplo
 jobs:
   build:
-    name: Update this repo's README with recent activity
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v4
-      - uses: guidprodrigues/github-activity-readme@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Instalar Ruby + Jekyll (ou Node.js)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ruby-full build-essential zlib1g-dev
+          gem install jekyll
+      - name: Gerar README
+        run: |
+          jekyll build --source . --destination ./out \
+            --config _config.yml,_config.readme.yml
+          cp out/README.md README.md
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: Atualiza README a partir do curriculo.md" || echo "sem mudanças"
+          git push
