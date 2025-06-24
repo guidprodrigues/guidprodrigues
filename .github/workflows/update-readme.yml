@@ -1,3 +1,12 @@
+name: Atualiza README
+on:
+  push:
+    paths:
+      - 'docs/curriculo.md'
+      - '.github/workflows/update-readme.yml'
+  schedule:
+    - cron: '0 0 * * 0'
+    
 jobs:
   build:
     runs-on: ubuntu-latest
