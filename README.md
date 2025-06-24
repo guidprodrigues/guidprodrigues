@@ -53,7 +53,7 @@
 
 - 💼 Hoje faço toda a gestão da infraestrutura da empresa, desde servidores e cabeamento estruturado, passando por sistemas de controle de acesso e CFTV, até notebooks e celulares, além de gerenciar contratos, orçamentos e parceiros tercerizados.
 
-- Além da experiencia na empresa que atuo, como todo bom amante da tecnologia faço meus experimentos 🧪 no meu HomeLab, possuo um ambiente de produção onde hospedo aplicações para mim e meus familiares, e tambem um ambiente para testes de novas tecnologias do mercado ou coisas que chamaram minha atenção.
+- Além da experiencia na empresa que atuo, como todo bom amante da tecnologia faço meus experimentos 🧪 no meu [HomeLab](https://github.com/guidprodrigues/homeLab) , possuo um ambiente de produção onde hospedo aplicações para mim e meus familiares, e tambem um ambiente para testes de novas tecnologias do mercado ou coisas que chamaram minha atenção.
 
 - 🚩 Atualmente estou focando meus esforços para evoluir no segmento de DevOps,estudando e me aprimorando em containers, CI/CD, Automações e  Observabilidade.
 
