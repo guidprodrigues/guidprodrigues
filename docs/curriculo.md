@@ -55,7 +55,7 @@ Atualmente, direciono meus estudos e esforços para a área de DevOps, com foco 
 
 ## 🏡 Projetos HomeLab 🔍💾🧪
 
-**Ambiente de Laboratório Pessoal** · GitHub: [{{ github }}](https://github.com/{{ github }}) 🌐📁💻
+**Ambiente de Laboratório Pessoal** · GitHub: [{{ github }}](https://github.com/ {{ github }}) 🌐📁💻
 
 - Ambiente de produção caseiro que hospeda aplicações de uso diário para mim e minha família.
 - Ambiente de testes com Ansible, Terraform e orquestração de containers Docker e Kubernetes.
@@ -98,4 +98,4 @@ Desenvolvimento contínuo alinhado às tendências de TI, com foco em excelênci
 
 - ✉️ [{{ email }}](mailto:{{ email }})
 - 📞 {{ phone }}
-- 🔗 [GitHub](https://github.com/{{ github }}) · [LinkedIn](https://linkedin.com/in/{{ linkedin }}) 🌐👥💬
+- 🔗 [GitHub](https://github.com/ {{ github }}) · [LinkedIn](https://linkedin.com/in/ {{ linkedin }}) 🌐👥💬
