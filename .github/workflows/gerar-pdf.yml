@@ -31,7 +31,7 @@ jobs:
       # Etapa 4: Executa o comando Pandoc para converter o arquivo
       - name: Gerar PDF com Pandoc
         run: |
-          pandoc .\docs\curriculo.md \
+          pandoc .github/docs/curriculo.md \
             --from markdown \
             --to pdf \
             --output output/curriculo.pdf \
