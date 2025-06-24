@@ -12,27 +12,32 @@ jobs:
   build-pdf:
     runs-on: ubuntu-latest
     steps:
-      # 1. Faz o checkout do código do seu repositório
+      # Etapa 1: Faz o checkout do código do seu repositório
       - name: Checkout do Repositório
         uses: actions/checkout@v4
 
-      # 2. Cria o diretório de saída para o PDF
+      # Etapa 2: Instala o Pandoc no ambiente da Action
+      - name: Instalar Pandoc e dependências de PDF (LaTeX)
+        uses: pandoc/setup-pandoc@v1
+        with:
+          # A versão 'latest' do pandoc será instalada por padrão.
+          # Esta action também instala o LaTeX, necessário para a criação de PDFs.
+          install-latex: true
+
+      # Etapa 3: Cria o diretório de saída para o PDF
       - name: Criar diretório de saída
         run: mkdir -p output
 
-      # 3. Converte o Markdown para PDF usando Pandoc
+      # Etapa 4: Executa o comando Pandoc para converter o arquivo
       - name: Gerar PDF com Pandoc
-        uses: pandoc/actions-gh-release@v3
-        with:
-          # Argumentos para o comando pandoc
-          args: >- # O '>' permite múltiplos argumentos em linhas separadas
+        run: |
+          pandoc curriculo.md \
+            --from markdown \
+            --to pdf \
+            --output output/curriculo.pdf \
             --standalone
-            --from=markdown
-            --to=pdf
-            --output=output/curriculo.pdf
-            curriculo.md
 
-      # 4. Faz o commit do PDF gerado de volta para o repositório
+      # Etapa 5: Faz o commit do PDF gerado de volta para o repositório
       - name: Commit do PDF
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
