@@ -25,7 +25,7 @@ jobs:
         run: |
           jekyll build \
             --source . \
-            --destination ./out \
+            --destination ./docs \
             --config _config.yml,_config.readme.yml
 
       - name: Commit & Push
