@@ -16,7 +16,13 @@ jobs:
       - name: Checkout do Repositório
         uses: actions/checkout@v4
 
-      # Etapa 2: Instala o Pandoc no ambiente da Action
+      # Etapa 2: Instalação manual e explícita do LaTeX
+      - name: Instalar dependências do LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y texlive-latex-base texlive-latex-extra
+
+      # Etapa 3: Instala o Pandoc
       - name: Instalar Pandoc e dependências de PDF (LaTeX)
         uses: pandoc/actions/setup@v1
         with:
