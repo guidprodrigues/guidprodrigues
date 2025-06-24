@@ -1,0 +1,44 @@
+# .github/workflows/gerar-pdf.yml
+
+name: Gerar PDF do Currículo
+
+on:
+  push:
+    branches:
+      - main # Executa a action quando houver um push na branch 'main'
+    paths:
+      - 'curriculo.md' # Executa a action apenas se o curriculo.md for alterado
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Faz o checkout do código do seu repositório
+      - name: Checkout do Repositório
+        uses: actions/checkout@v4
+
+      # 2. Cria o diretório de saída para o PDF
+      - name: Criar diretório de saída
+        run: mkdir -p output
+
+      # 3. Converte o Markdown para PDF usando Pandoc
+      - name: Gerar PDF com Pandoc
+        uses: pandoc/actions-gh-release@v3
+        with:
+          # Argumentos para o comando pandoc
+          args: >- # O '>' permite múltiplos argumentos em linhas separadas
+            --standalone
+            --from=markdown
+            --to=pdf
+            --output=output/curriculo.pdf
+            curriculo.md
+
+      # 4. Faz o commit do PDF gerado de volta para o repositório
+      - name: Commit do PDF
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs(curriculo): atualiza curriculo.pdf"
+          file_pattern: "output/curriculo.pdf"
+          commit_user_name: "GitHub Actions Bot"
+          commit_user_email: "actions@github.com"
+          commit_author: "GitHub Actions Bot <actions@github.com>"
