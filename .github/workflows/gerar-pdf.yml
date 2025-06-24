@@ -18,7 +18,7 @@ jobs:
 
       # Etapa 2: Instala o Pandoc no ambiente da Action
       - name: Instalar Pandoc e dependências de PDF (LaTeX)
-        uses: pandoc/actions-gh-release
+        uses: pandoc/setup-pandoc
         with:
           # A versão 'latest' do pandoc será instalada por padrão.
           # Esta action também instala o LaTeX, necessário para a criação de PDFs.
