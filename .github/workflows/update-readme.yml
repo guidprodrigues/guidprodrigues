@@ -13,11 +13,17 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Instalar Ruby + Jekyll (ou Node.js)
+      - name: Instalar Ruby + Jekyll (local)
         run: |
           sudo apt-get update
           sudo apt-get install -y ruby-full build-essential zlib1g-dev
-          gem install jekyll
+          # Instala jekyll localmente no $HOME/.gem para não precisar de permissão root
+          gem install --user-install jekyll
+        # Expor o diretório de gems do usuário e adicionar ao PATH
+        env:
+          GEM_HOME: ${{ runner.home }}/.gem
+          PATH: ${{ runner.home }}/.gem/bin:${{ runner.tool_cache }}/ruby/bin:${{ env.PATH }}
+
       - name: Gerar README
         run: |
           jekyll build --source . --destination ./out \
