@@ -1,16 +1,6 @@
-name: Atualiza README
-on:
-  push:
-    paths:
-      - 'docs/curriculo.md'
-      - '.github/workflows/update-readme.yml'
-  schedule:
-    - cron: '0 0 * * 0'
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v3
 
@@ -18,13 +8,9 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          cache: 'bundler'
 
-      - name: Instalar Jekyll e dependências
-        run: |
-          gem install jekyll bundler
-          bundle config set path vendor/bundle
-          bundle install
+      - name: Instalar Jekyll
+        run: gem install jekyll
 
       - name: Gerar README
         run: |
@@ -40,6 +26,6 @@ jobs:
           cp out/README.md README.md
           git add README.md
           git diff --quiet && git diff --staged --quiet || (
-            git commit -m "chore: Atualiza README a partir do curriculo.md"
+            git commit -m "chore: Atualiza README via Action"
             git push
           )
