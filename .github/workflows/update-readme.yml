@@ -15,8 +15,8 @@ jobs:
           fetch-depth: 0
       - name: Instalar Ruby + Jekyll (local)
         run: |
-          sudo apt-get update
-          sudo apt-get install -y ruby-full build-essential zlib1g-dev
+          apt-get update
+          apt-get install -y ruby-full build-essential zlib1g-dev
           # Instala jekyll localmente no $HOME/.gem para não precisar de permissão root
           gem install --user-install jekyll
         # Expor o diretório de gems do usuário e adicionar ao PATH
